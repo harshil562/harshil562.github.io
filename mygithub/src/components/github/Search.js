@@ -19,7 +19,7 @@ class Search extends Component{
 	return(
 		<div>
 			<form onSubmit ={this.onSubmit.bind(this)}>
-				<label> Search Github users</label>
+				<label> Search Github users by entering their usernames !!</label>
 				<input type ="text" ref ="username" className="form-control"/>
 				<br/>
 			</form>
