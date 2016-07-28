@@ -1,0 +1,33 @@
+{
+  "name": "harshil",
+  "version": "1.0.0",
+  "description": "get github user info and display",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshil562/AiqReactjs.git"
+  },
+  "keywords": [
+    "harshil"
+  ],
+  "author": "harshil",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "5.8.*",
+    "babel-loader": "5.3.*",
+    "webpack": "1.12.*"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/harshil562/AiqReactjs/issues"
+  },
+  "homepage": "https://github.com/harshil562/AiqReactjs#readme"
+}
