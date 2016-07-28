@@ -9,7 +9,7 @@ class Profile extends Component{
 				<div className="panel panel-default">
 					  <div className="panel-heading"></div>
 					  <div className="panel-body">
-					    {this.props.userData.name}
+					    <h1> Name :{this.props.userData.name} </h1>
 					  </div>
 				</div>
 
