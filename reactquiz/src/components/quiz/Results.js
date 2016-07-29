@@ -24,7 +24,6 @@ class Results extends Component{
 				<h1>{percent}% - {message}</h1>
 				<hr />
 
-				<a href ="reactquiz/app"> Take again </a>
 				<a href ="https://harshil562.github.io/reactquiz/app/"> Take again </a>
 
 			</div>
