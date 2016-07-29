@@ -23,11 +23,10 @@ class Results extends Component{
 				<h4> You got {this.props.score} out of {this.props.questions.length} Correct</h4>
 				<h1>{percent}% - {message}</h1>
 				<hr />
-<<<<<<< HEAD
+
 				<a href ="reactquiz/app"> Take again </a>
-=======
 				<a href ="https://harshil562.github.io/reactquiz/app/"> Take again </a>
->>>>>>> f0fb17380fbed2cf872a9ee21a767ad25ebc6577
+
 			</div>
 		)
 	}
