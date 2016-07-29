@@ -19733,7 +19733,7 @@
 
 	var _quizScoreboxJs2 = _interopRequireDefault(_quizScoreboxJs);
 
-	var _quizResultsJs = __webpack_require__(163);
+	var _quizResultsJs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./quiz/Results.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var _quizResultsJs2 = _interopRequireDefault(_quizResultsJs);
 
@@ -20129,90 +20129,6 @@
 
 	exports["default"] = Scorebox;
 	module.exports = exports["default"];
-
-/***/ },
-/* 163 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, '__esModule', {
-		value: true
-	});
-
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var Results = (function (_Component) {
-		_inherits(Results, _Component);
-
-		function Results() {
-			_classCallCheck(this, Results);
-
-			_get(Object.getPrototypeOf(Results.prototype), 'constructor', this).apply(this, arguments);
-		}
-
-		//some apis will going to expose it's json code to us , then only we can get the database access
-
-		_createClass(Results, [{
-			key: 'render',
-			value: function render() {
-
-				var percent = this.props.score / this.props.questions.length * 100;
-				if (percent > 80) {
-
-					var message = 'Awesome Job!';
-				} else if (percent < 80 && percent > 60) {
-					var message = 'You did Ok !';
-				} else {
-
-					var message = 'Not satisfactory. Should try once again !';
-				}
-				return _react2['default'].createElement(
-					'div',
-					{ className: 'well' },
-					_react2['default'].createElement(
-						'h4',
-						null,
-						' You got ',
-						this.props.score,
-						' out of ',
-						this.props.questions.length,
-						' Correct'
-					),
-					_react2['default'].createElement(
-						'h1',
-						null,
-						percent,
-						'% - ',
-						message
-					),
-					_react2['default'].createElement('hr', null),
-					_react2['default'].createElement(
-						'a',
-						{ href: 'https://harshil562.github.io/reactquiz/app/' },
-						' Take again '
-					)
-				);
-			}
-		}]);
-
-		return Results;
-	})(_react.Component);
-
-	exports['default'] = Results;
-	module.exports = exports['default'];
 
 /***/ }
 /******/ ]);
