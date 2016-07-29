@@ -19894,7 +19894,13 @@
 						_react2['default'].createElement(
 							'div',
 							{ className: 'panel-body' },
-							this.props.userData.name
+							_react2['default'].createElement(
+								'h1',
+								null,
+								' Name :',
+								this.props.userData.name,
+								' '
+							)
 						)
 					),
 					_react2['default'].createElement(
@@ -20231,7 +20237,7 @@
 						_react2['default'].createElement(
 							'label',
 							null,
-							' Search Github users'
+							' Search Github users by entering their usernames !!'
 						),
 						_react2['default'].createElement('input', { type: 'text', ref: 'username', className: 'form-control' }),
 						_react2['default'].createElement('br', null)
