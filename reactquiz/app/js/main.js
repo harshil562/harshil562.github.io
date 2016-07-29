@@ -20201,7 +20201,12 @@
 					_react2['default'].createElement('hr', null),
 					_react2['default'].createElement(
 						'a',
-						{ href: '/app' },
+						{ href: 'reactquiz/app' },
+						' Take again '
+					),
+					_react2['default'].createElement(
+						'a',
+						{ href: 'https://harshil562.github.io/reactquiz/app/' },
 						' Take again '
 					)
 				);
