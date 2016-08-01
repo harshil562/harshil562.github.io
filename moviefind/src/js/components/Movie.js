@@ -5,7 +5,7 @@ var AppStore = require('../stores/AppStore');
 var Movie = React.createClass({
 
 	render: function(){
-		var link = 'http://www.imdb.com/title/' + this.props.movie.imdbID;
+		var link = 'https://www.imdb.com/title/' + this.props.movie.imdbID;
 		return( 
 			<div className ="well">
 				<div className ="row">

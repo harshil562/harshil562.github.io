@@ -5,7 +5,7 @@ module.exports = {
 	searchMovies: function(movie){
 		$.ajax({
 
-			url: 'http://www.omdbapi.com/?s='+movie.title,
+			url: 'https://www.omdbapi.com/?s='+movie.title,
 			dataType: 'json',
 			cache: false,
 			success: function(data){
