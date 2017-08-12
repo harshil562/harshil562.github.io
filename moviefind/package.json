@@ -1,0 +1,27 @@
+{
+  "name": "harshil",
+  "version": "1.0.0",
+  "description": "simple movie info finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harshil",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "*",
+    "flux": "*",
+    "gulp": "*",
+    "reactify": "*",
+    "vinyl-source-stream":"*",
+    "object-assign": "*"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "bugs": {
+    "url": "https://github.com/harshil562/AiqReactjs/issues"
+  },
+  "homepage": "https://github.com/harshil562/AiqReactjs#readme"
+}
