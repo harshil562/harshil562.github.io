@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://harshil562.github.io/myapp",
+  "homepage": "http://harshil562.github.io/advancedTodo/build",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "lodash": "^4.17.4",
